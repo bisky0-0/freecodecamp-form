@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+    <head>
+        <title>freecode camp form</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <main>
+            <h1 id="title">freeCodeCamp Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form action="#" id="survey-form">
+                <fieldset>
+                <label for="name" name="name" id="name-label">Name
+                    <input type="text" name="name" id="name" placeholder="Enter Your name" required>
+                </label>
+
+                <label for="email" name="email" id="email-label">Email
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                </label>
+                <label for="age" name="number" id="number-label">Age (optional)
+                    <input type="number" name="age" id="number" min="10" max="120" placeholder="Age">
+                </label>
+                </fieldset>
+                <fieldset>
+                <label for="dropdown">Which option best describes your current role?
+                <select name="dropdown" id="dropdown">
+                    <option value="" selected disabled>Select current role</option>
+                    <option value="one">student</option>
+                    <option value="tow">full time job</option>
+                    <option value="three">full time lerner</option>
+                    <option value="four">prefer not to say</option>
+                    <option value="five">other</option>
+                </select>
+                </label>
+                </fieldset>
+                <fieldset class="che"> <p class="pp">Would you recommend freeCodeCamp to a friend?</p>
+                <label for="rad1" name="rad1">
+                    <input type="radio" name="rad" id="rad1" value="radi1">Definitely
+                </label>
+                <label for="rad2" name="rad2">
+                    <input type="radio" name="rad" id="rad2" value="radi2">Maybe
+                </label>
+                <label for="rad3" name="rad3">
+                    <input type="radio" name="rad" id="rad3" value="radi3">Not sure
+                </label>
+                </fieldset>
+                <fieldset>
+                    <label for="select" name="select">What is your favorite feature of freeCodeCamp?
+                        <select name="select" id="select">
+                            <option value="" selected disabled>select an option</option>
+                            <option value="un">challenges</option>
+                            <option value="du">projects</option>
+                            <option value="troi">comunity</option>
+                            <option value="quatr">open source</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset class="che"><p class="pp">What would you like to see improved? (Check all that apply)</p>
+                    <label for="ch1" class="bo"><input type="checkbox" name="ch1" id="ch1" value="ch1">Front-end Projects</label>
+                    <label for="ch2" class="bo"><input type="checkbox" name="ch2" id="ch2" value="ch2">Back-end Projects</label>
+                    <label for="ch3" class="bo"><input type="checkbox" name="ch3" id="ch3" value="ch3">Data Visualization</label>
+                    <label for="ch4" class="bo"><input type="checkbox" name="ch4" id="ch4" value="ch4">Challenges</label>
+                    <label for="ch5" class="bo"><input type="checkbox" name="ch5" id="ch5" value="ch5">Open Source Community</label>
+                    <label for="ch6" class="bo"><input type="checkbox" name="ch6" id="ch6" value="ch6">Gitter help rooms</label>
+                    <label for="ch7" class="bo"><input type="checkbox" name="ch7" id="ch7" value="ch7">Videos</label>
+                    <label for="ch8" class="bo"><input type="checkbox" name="ch8" id="ch8" value="ch8">City Meetups</label>
+                    <label for="ch9" class="bo"><input type="checkbox" name="ch9" id="ch9" value="ch9">Wiki</label>
+                    <label for="ch10" class="bo"><input type="checkbox" name="ch10" id="ch10" value="ch10">Forum</label>
+                    <label for="ch11" class="bo"><input type="checkbox" name="ch11" id="ch11" value="ch11">Additional Courses</label>
+                </fieldset>
+
+                <fieldset>
+                    <label for="texarea" name="texarea">Any comments or suggestions?
+                        <textarea name="texarea" id="texarea" cols="30" rows="10" placeholder="Enter ypur comment here"></textarea>
+                    </label>
+                </fieldset>
+                <fieldset> <input type="submit" value="submit" id="submit"> </fieldset>
+            </form>
+        </main>
+    </body>
+</html>
